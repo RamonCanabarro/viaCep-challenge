@@ -1,0 +1,18 @@
+button {
+    height: 52px;
+    width: 292px;
+    border-radius: 8px;
+    background: #B600EE;
+    border: none;
+    color: #ffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7b01a0;
+    border: none;
+}

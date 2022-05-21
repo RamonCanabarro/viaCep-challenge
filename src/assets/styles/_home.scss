@@ -1,0 +1,41 @@
+#container {
+    width: 50%;
+}
+#main-container {
+    margin: 20px;
+    margin-left: 150px;
+    display: flex;
+    width: 100%;
+    .label-cep {
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .label-value {
+        color: #75818C;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 5px;
+    }
+}
+#card-container {
+    margin: 20px;
+    margin-left: 150px;
+    width: 100%;
+}
+.search {
+    justify-content: space-between;
+}
+.list-ceps {
+    justify-content: flex-start;
+}
+.address-button {
+    justify-content: flex-end;
+}
